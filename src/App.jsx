@@ -13,7 +13,9 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
-      <Model />
+      <div className='hidden sm:block'>
+        <Model />
+      </div>
       <Features />
       <HowItWorks />
       <Footer />
