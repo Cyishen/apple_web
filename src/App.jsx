@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
-      <div className='hidden sm:block'>
+      {/* <div className='hidden sm:block'>
         <Model />
-      </div>
+      </div> */}
       <Features />
       <HowItWorks />
       <Footer />
